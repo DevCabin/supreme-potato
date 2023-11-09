@@ -1,4 +1,5 @@
-window.onload = (event) => {
-    console.log('hello there!');
-};
 
+function(boxTops){
+    console.log('hello there!');
+}
+window.onload = boxTops(
