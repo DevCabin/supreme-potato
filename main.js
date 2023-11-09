@@ -1,1 +1,4 @@
-console.log('hello there!');
+window.onload = (event) => {
+    console.log('hello there!');
+};
+
