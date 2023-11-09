@@ -2,4 +2,4 @@
 function(boxTops){
     console.log('hello there!');
 }
-window.onload = boxTops(
+window.onload = boxTops();
