@@ -155,13 +155,22 @@ Box area positioning
 }
 
 #boxTopInner {
-text-align: center;
+  text-align: center;
 }
 
 #boxTop span.Modal_close-button {
-  color: rgb(97, 115, 121);
+  fill: rgb(97, 115, 121);
   padding: 10px;
   position: relative;
   top: 20px;
   left: -20px;
+}
+
+#boxTop span.Modal_close-button:hover {
+  fill: rgb(70, 80, 90);
+  cursor: pointer;
+}
+
+.goodbye {
+  display: none!important;
 }
