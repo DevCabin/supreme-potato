@@ -139,3 +139,17 @@
   float: left;
   margin: 0 1em 1em 0;
 }
+/*
+=============================
+Box area positioning
+=============================
+*/
+#boxTop {
+    position: fixed;
+    top: 62px;
+    left: 0;
+    z-index: 9;
+    background-color: #ffffff;
+    width: 100%;
+    text-align: center;
+}
