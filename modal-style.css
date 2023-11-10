@@ -145,11 +145,23 @@ Box area positioning
 =============================
 */
 #boxTop {
-    position: fixed;
-    top: 62px;
-    left: 0;
-    z-index: 9;
-    background-color: #ffffff;
-    width: 100%;
-    text-align: center;
+  position: fixed;
+  top: 62px;
+  left: 0;
+  z-index: 9;
+  background-color: #ffffff;
+  width: 100%;
+  text-align: right;
+}
+
+#boxTopInner {
+text-align: center;
+}
+
+#boxTop span.Modal_close-button {
+  color: rgb(97, 115, 121);
+  padding: 10px;
+  position: relative;
+  top: 20px;
+  left: -20px;
 }
